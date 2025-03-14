@@ -78,7 +78,7 @@ span {
     position: relative;
     max-width: 1440px;
     height: 800px;
-    background-image: url(//images/hero_bg.png);
+    background-image: url(../images/hero_bg.png);
     background-size: 1440px 800px;
     background-repeat: no-repeat;
     background-position: center;
