@@ -71,13 +71,13 @@ textarea { resize: none; }
 }
 .header__nav-link {
     padding: 8px 12px;
-    font-family: "Pangolin", cursive;    
-    font-size: 16px;
+    font-family: "Shantell Sans", cursive;
+    font-size: 14px;
     font-weight: 500;
     color: white;
     transition: ease-in-out 0.3s ;
     @media screen and (min-width: 768px) {
-        font-size: 18px;
+        font-size: 16px;
     } 
 }
 .header__nav-link:hover {
@@ -118,9 +118,9 @@ textarea { resize: none; }
 .hero__title-text {
     box-sizing: border-box;
     width: 100%;
-    font-family: "Pangolin", cursive;    
+    font-family: "Shantell Sans", cursive;
     color: white;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 400;
     text-align: center;
     background-color: rgba(28,28,28,0.2);
@@ -128,24 +128,24 @@ textarea { resize: none; }
     border-radius: 20px;
     padding: 20px;
     @media screen and (min-width: 768px) {
-        font-size: 32px;
+        font-size: 30px;
     } 
 }
 .hero__title-text-main {
-    font-family: "Pangolin", cursive;    
-    font-size: 44px;
+    font-family: "Shantell Sans", cursive;
+    font-size: 40px;
     font-weight: 700;
     color: white;
     @media screen and (min-width: 768px) {
-        font-size: 52px;
+        font-size: 48px;
     } 
 }
 .hero__title-description {
     box-sizing: border-box;
     width: 100%;
-    font-family: "Pangolin", cursive;    
+    font-family: "Shantell Sans", cursive;
     color: white;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     background-color: rgba(28,28,28,0.2);
     backdrop-filter: blur(20px);
@@ -153,7 +153,7 @@ textarea { resize: none; }
     padding: 20px;
     text-align: justify;
     @media screen and (min-width: 768px) {
-        font-size: 18px;
+        font-size: 16px;
     } 
 }
 .hero__button {
@@ -164,14 +164,13 @@ textarea { resize: none; }
     min-width: 150px;
     background-color: rgba(28,28,28,0.2);
     border: 1px solid white;
-    font-family: "Pangolin", cursive;    
-    font-size: 16px;
+    font-family: "Shantell Sans", cursive;
+    font-size: 14px;
     font-weight: 500;
-    font-size: 18px;
     color: white;
     transition: ease-in-out 0.3s ;
     @media screen and (min-width: 768px) {
-        font-size: 18px;
+        font-size: 16px;
     } 
 }
 .hero__button:hover {
@@ -198,12 +197,12 @@ textarea { resize: none; }
 }
 .gallery__title {
     text-align: center;
-    font-family: "Pangolin", cursive;    
+    font-family: "Shantell Sans", cursive;
     font-weight: 500;
-    font-size: 32px;
+    font-size: 28px;
     color: black;
     @media screen and (min-width: 768px) {
-        font-size: 38px;
+        font-size: 34px;
     } 
 }
 .gallery__list {
@@ -235,13 +234,13 @@ textarea { resize: none; }
 }
 .gallery__item-title {
     text-align: center;
-    font-family: "Pangolin", cursive;    
+    font-family: "Shantell Sans", cursive;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 18px;
     color: black;
     border-bottom: 1px solid black;
     @media screen and (min-width: 768px) {
-        font-size: 22px;
+        font-size: 20px;
     }
 }
 .gallery__item-image {
@@ -304,13 +303,13 @@ textarea { resize: none; }
 }
 .footer__nav-link {
     padding: 8px;
-    font-family: "Pangolin", cursive;    
+    font-family: "Shantell Sans", cursive;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 14px;
     color: black;
     transition: ease-in-out 0.3s ; 
     @media screen and (min-width: 768px) {
-        font-size: 18px;
+        font-size: 16px;
     }
 }
 .footer__nav-link:hover {
@@ -340,13 +339,13 @@ textarea { resize: none; }
     align-items: center;
     justify-content: center;
     gap: 8px;
-    font-family: "Pangolin", cursive;    
-    font-size: 16px;
+    font-family: "Shantell Sans", cursive;
+    font-size: 14px;
     font-weight: 500;
     color: black;
     @media screen and (min-width: 768px) {
         justify-content: start;
-        font-size: 18px;
+        font-size: 16px;
     }
 }
 .footer__socials-link-contact:hover {
@@ -354,7 +353,7 @@ textarea { resize: none; }
 }
 .footer__template {
     text-align: center;
-    font-family: "Pangolin", cursive;    
+    font-family: "Shantell Sans", cursive;
     color: black;
     font-size: 12px;
     font-weight: 400;
@@ -402,7 +401,7 @@ textarea { resize: none; }
     transform: rotate(180deg);
 }
 .contact-modal__title {
-    font-family: "Pangolin", cursive;
+    font-family: "Shantell Sans", cursive;
     font-size: 24px;
     margin-bottom: 20px;
     text-align: center;
@@ -419,7 +418,7 @@ textarea { resize: none; }
 }
 .contact-modal__form-group label {
     display: block;
-    font-family: "Pangolin", cursive;
+    font-family: "Shantell Sans", cursive;
     font-size: 16px;
     margin-bottom: 5px;
 }
@@ -428,7 +427,7 @@ textarea { resize: none; }
     box-sizing: border-box;
     width: 100%;
     padding: 8px;
-    font-family: "Pangolin", cursive;
+    font-family: "Shantell Sans", cursive;
     font-size: 14px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -436,7 +435,7 @@ textarea { resize: none; }
 .contact-modal__submit {
     width: 50%;
     padding: 10px;
-    font-family: "Pangolin", cursive;
+    font-family: "Shantell Sans", cursive;
     font-size: 16px;
     background-color: #000;
     color: white;
@@ -491,7 +490,7 @@ textarea { resize: none; }
     transform: rotate(180deg);
 }
 .slider-modal-title {
-    font-family: "Pangolin", cursive;
+    font-family: "Shantell Sans", cursive;
     font-size: 28px;
     font-weight: 500;
     margin-bottom: 20px;
@@ -550,7 +549,7 @@ textarea { resize: none; }
 
 
 .slider-image-counter {
-    font-family: "Pangolin", cursive;
+    font-family: "Shantell Sans", cursive;
     font-size: 16px;
     margin-top: 20px;
 }
