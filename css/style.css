@@ -2,8 +2,7 @@ body {
     max-width: 1440px;
     margin: auto;
 }
-html {
-}
+
 p {
     margin: 0;
 }
@@ -29,8 +28,7 @@ ul {
 button {
     padding: 0;
 }
-span {
-}
+
 textarea { resize: none; }
 
 .header {
