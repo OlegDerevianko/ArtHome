@@ -56,6 +56,10 @@ textarea { resize: none; }
     display: flex;
     align-items: center;
 }
+.header__logo-image {
+    width: 190px;
+    height: 30px;
+}
 .header__logo {
     display: flex;
     align-items: center;
@@ -287,6 +291,10 @@ textarea { resize: none; }
 .footer__logo-link {
     display: flex;
     align-items: center;
+}
+.footer__logo-image {
+    width: 190px;
+    height: 30px;
 }
 .footer__nav {
     display: flex;
