@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Gochi+Hand&family=Pangolin&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     
@@ -180,5 +180,37 @@
             <p class="footer__template">© 2025 Всі права захищені | ArtHome</p>
         </div>
     </footer>
+    <div id="modal" class="modal">
+        <div class="modal__content">
+            <span class="modal__close">&times;</span>
+            <h2 class="modal__title">Contact Us</h2>
+            <form id="contactForm" class="modal__form">
+                <div class="modal__form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="modal__form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="modal__form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="modal__form-group">
+                    <label for="comments">Comments:</label>
+                    <textarea id="comments" name="comments" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="modal__submit">Send</button>
+            </form>
+        </div>
+    </div>
+    <script src="./js/contact-modal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script>
+    // Инициализация EmailJS
+    emailjs.init("Sd04xJXVI46KBFXMi"); // Замените YOUR_USER_ID на ваш User ID
+</script>
 </body>
+
 </html>
