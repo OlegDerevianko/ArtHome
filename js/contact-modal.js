@@ -1,8 +1,8 @@
 // Получаем элементы
 const modal = document.getElementById("modal");
 const contactUsButton = document.querySelector(".hero__button");
-const contactLinks = document.querySelectorAll(".header__nav-link[href=''], .footer__nav-link[href='']");
-const closeModalButton = document.querySelector(".modal__close");
+const contactLinks = document.querySelectorAll(".contact__modal");
+const closeModalButton = document.querySelector(".contact-modal__close");
 const contactForm = document.getElementById("contactForm");
 
 // Функция для открытия модального окна
