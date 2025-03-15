@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     // Добавляем стили для плавного перехода
-    sliderImage.style.transition = 'opacity 0.3s ease-in-out';
+    sliderImage.style.transition = 'opacity 0.2s ease-in-out';
 
     closeBtn.addEventListener('click', closeModal);
 

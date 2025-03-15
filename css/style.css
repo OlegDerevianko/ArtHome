@@ -512,7 +512,7 @@ textarea { resize: none; }
     border-radius: 12px;
     box-shadow: 0 0 11px rgba(33,33,33,0.7);
     opacity: 0; /* Начальная прозрачность */
-    transition: opacity 0.3s ease-in-out; /* Плавное появление */
+    transition: opacity 0.2s ease-in-out; /* Плавное появление */
 }
 .slider img.active {
     opacity: 1; /* Видимое изображение */
