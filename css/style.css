@@ -2,7 +2,9 @@ body {
     max-width: 1440px;
     margin: auto;
 }
-
+html {
+    scroll-behavior: smooth;
+}
 p {
     margin: 0;
 }
@@ -251,6 +253,45 @@ textarea { resize: none; }
 }
 .gallery__item-image:nth-child(n+2) {
     display: none;
+}
+
+
+.about {
+    background: url('../images/about-bg.png') no-repeat center center/cover;
+    padding: 50px 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    @media screen and (min-width: 768px) {
+        padding: 50px 40px;
+    }
+}
+.about__container {
+    max-width: 800px;
+    padding: 20px;
+    background-color: rgba(28,28,28,0.2);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+}
+.about__title {
+    font-family: "Shantell Sans", cursive;
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: white;
+    @media screen and (min-width: 768px) {
+        font-size: 34px;
+    }
+}
+.about__description {
+    font-family: "Shantell Sans", cursive;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    color: white;
+    @media screen and (min-width: 768px) {
+        font-size: 16px;
+    }
 }
 
 .footer {
@@ -568,3 +609,26 @@ textarea { resize: none; }
     font-size: 16px;
     margin-top: 20px;
 }
+
+#scrollToTopBtn {
+    display: none; /* Скрываем кнопку по умолчанию */
+    justify-content: center;
+    align-items: center;
+    position: fixed; /* Фиксируем позицию */
+    bottom: 20px; /* Отступ снизу */
+    right: 20px; /* Отступ справа */
+    z-index: 99; /* Убедимся, что кнопка поверх других элементов */
+    border: none; /* Убираем границу */
+    outline: none; /* Убираем контур */
+    border: 1px solid black; /* Граница */
+    border-radius: 50%; /* Круглая форма */
+    color: black; /* Цвет текста */
+    cursor: pointer; /* Курсор в виде указателя */
+    padding: 15px; /* Внутренний отступ */
+    font-size: 20px; /* Размер иконки */
+    transition: opacity 0.3s; /* Плавное появление */
+  }
+  
+  #scrollToTopBtn:hover {
+    background-color: rgba(28,28,28,0.2);
+  }
