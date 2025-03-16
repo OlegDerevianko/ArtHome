@@ -30,8 +30,9 @@ ul {
 button {
     padding: 0;
 }
-
-textarea { resize: none; }
+textarea { 
+    resize: none; 
+}
 
 .header {
     top: 0;    
@@ -86,9 +87,9 @@ textarea { resize: none; }
     color: #000000;
     transition: ease-in-out 0.3s ;
 }
-.current {
-    border-bottom: 1px solid white;
-}
+
+
+
 .hero {
     position: relative;
     max-width: 1440px;
@@ -162,10 +163,10 @@ textarea { resize: none; }
     cursor: pointer;
     padding: 12px;
     backdrop-filter: blur(20px);
-    border-radius: 24px;
+    border-radius: 20px;
     min-width: 150px;
     background-color: rgba(28,28,28,0.2);
-    border: 1px solid white;
+    border: none;
     font-family: "Shantell Sans", cursive;
     font-size: 14px;
     font-weight: 500;
@@ -179,7 +180,11 @@ textarea { resize: none; }
     color: #000000;
     transition: ease-in-out 0.3s ;
     backdrop-filter: blur(20px);
+    transform: scale(1px) ;
 }
+
+
+
 .gallery {
     padding: 50px 10px;
     backdrop-filter: blur(20px);
@@ -256,6 +261,8 @@ textarea { resize: none; }
 }
 
 
+
+
 .about {
     background: url('../images/about-bg.png') no-repeat center center/cover;
     padding: 50px 10px;
@@ -294,6 +301,8 @@ textarea { resize: none; }
     }
 }
 
+
+
 .footer {
     padding: 40px 10px ;
     backdrop-filter: blur(20px);
@@ -307,7 +316,6 @@ textarea { resize: none; }
     justify-content: space-between;
     flex-direction: column;
     gap: 30px;
-    /* gap: 80px; */
     @media screen and (min-width: 768px) {
         gap: 80px;
         flex-direction: row;
@@ -446,6 +454,7 @@ textarea { resize: none; }
     font-size: 24px;
     margin-bottom: 20px;
     text-align: center;
+    border-bottom: 1px solid black;
 }
 .contact-modal__form {
     display: flex;
@@ -504,7 +513,6 @@ textarea { resize: none; }
     background-color: rgba(0, 0, 0, 0.8);
     backdrop-filter: blur(10px);
 }
-
 .slider-modal-content {
     position: relative;
     box-sizing: border-box;
@@ -519,7 +527,6 @@ textarea { resize: none; }
         max-width: 600px;
     } 
 }
-
 .close {
     position: absolute;
     right: 20px;
@@ -560,12 +567,11 @@ textarea { resize: none; }
     box-sizing: border-box;    
     border-radius: 12px;
     box-shadow: 0 0 11px rgba(33,33,33,0.7);
-    opacity: 0; /* Начальная прозрачность */
-    transition: opacity 0.2s ease-in-out; 
-    
+    opacity: 0; 
+    transition: opacity 0.2s ease-in-out;     
 }
 .slider img.active {
-    opacity: 1; /* Видимое изображение */
+    opacity: 1;
 }
 .prev, .next {
     cursor: pointer;
@@ -598,37 +604,38 @@ textarea { resize: none; }
         right: 20px;
     }
 }
-
 .prev:hover, .next:hover {
     background-color: rgba(0, 0, 0, 0.5);
 }
-
-
 .slider-image-counter {
     font-family: "Shantell Sans", cursive;
     font-size: 16px;
     margin-top: 20px;
 }
 
+
+
+
 #scrollToTopBtn {
-    display: none; /* Скрываем кнопку по умолчанию */
+    display: none;
     justify-content: center;
     align-items: center;
-    position: fixed; /* Фиксируем позицию */
-    bottom: 20px; /* Отступ снизу */
-    right: 20px; /* Отступ справа */
-    z-index: 99; /* Убедимся, что кнопка поверх других элементов */
-    border: none; /* Убираем границу */
-    outline: none; /* Убираем контур */
-    border: 1px solid black; /* Граница */
-    border-radius: 50%; /* Круглая форма */
-    color: black; /* Цвет текста */
-    cursor: pointer; /* Курсор в виде указателя */
-    padding: 15px; /* Внутренний отступ */
-    font-size: 20px; /* Размер иконки */
-    transition: opacity 0.3s; /* Плавное появление */
-  }
-  
-  #scrollToTopBtn:hover {
+    position: fixed;
+    bottom: 20px; 
+    right: 20px; 
+    z-index: 99;
+    border: none;
+    outline: none; 
+    border: 1px solid black;
+    border-radius: 50%; 
+    color: black; 
+    cursor: pointer; 
+    padding: 15px;
+    transition: opacity 0.3s; 
+    transition: all 0.3s ease-in-out;/
+}
+#scrollToTopBtn:hover {
     background-color: rgba(28,28,28,0.2);
-  }
+    transition: opacity 0.3s;
+    transition: all 0.3s ease-in-out;
+}
