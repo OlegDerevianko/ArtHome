@@ -690,6 +690,7 @@ textarea {
     z-index: 99;
     border: none;
     outline: none; 
+    background-color: transparent;
     border: 1px solid black;
     border-radius: 50%; 
     color: black; 
@@ -698,8 +699,7 @@ textarea {
     transition: opacity 0.3s; 
     transition: all 0.3s ease-in-out;/
 }
-#scrollToTopBtn:hover {
-    background-color: rgba(28,28,28,0.2);
-    transition: opacity 0.3s;
+#scrollToTopBtn:hover svg {
+    transform: rotate(360deg);
     transition: all 0.3s ease-in-out;
 }
